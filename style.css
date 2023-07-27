@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row;
+    align-content: space-around;
+    background-color: rgb(75, 72, 73);
+    margin: 40px;
+}
+.card
+{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    flex-wrap: wrap;
+    text-align: center;
+}
+img
+{
+    padding: 15px;
+}
+header
+{
+   text-align: center; 
+   background-color: rgb(29, 21, 21);
+   color: white;
+}
+.btn
+{
+  
+}
